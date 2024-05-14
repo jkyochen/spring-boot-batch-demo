@@ -16,7 +16,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import java.util.Arrays;
 
 @Configuration
-public class DemoBatchConfig {
+public class DemoJobConfig {
 
     @Autowired
     private JobRepository jobRepository;
